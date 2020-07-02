@@ -1,0 +1,64 @@
+body {
+  font-family: Gilroy;
+}
+
+.mx375 {
+  max-width: 375px;
+}
+
+h3 {
+  font-family: Gilroy-bold;
+}
+
+.headertext {
+  font-weight: bold;
+  font-family: Gilroy-bold;
+}
+
+.container {
+  background-color: #23272d;
+}
+
+.imageg {
+  margin-left: -15px;
+}
+
+input[type="text"] {
+  border: none;
+  background-color: #23272d;
+  border-bottom: 2px solid gray;
+  color: white;
+}
+
+.order {
+  background-color: #c62c32;
+  padding: 10px;
+  border: 1px solid #c62c32;
+  border-radius: 10px;
+}
+
+.footerborder {
+  background-color: #838383;
+  padding: 10px;
+  border: 1px solid #838383;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.graybox {
+  margin-left: -15px;
+}
+
+.smolpp {
+  font-size: 11px;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url(/assets/gilroylight.woff);
+}
+
+@font-face {
+  font-family: Gilroy-bold;
+  src: url(/assets/gilroyextrabold.woff);
+}
